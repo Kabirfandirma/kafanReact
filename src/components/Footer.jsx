@@ -40,7 +40,7 @@ export default function Footer() {
             <Linkedin size={24} />
           </a>
           <a
-            href="https://github.com/yourprofile"
+            href="https://github.com/mprofile"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-yellow-400 transition"
@@ -48,7 +48,7 @@ export default function Footer() {
             <Github size={24} />
           </a>
           <a
-            href="https://twitter.com/yourprofile"
+            href="https://twitter.com/myprofile"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-yellow-400 transition"
@@ -56,7 +56,7 @@ export default function Footer() {
             <Twitter size={24} />
           </a>
           <a
-            href="https://instagram.com/yourprofile"
+            href="https://instagram.com/myprofile"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-yellow-400 transition"

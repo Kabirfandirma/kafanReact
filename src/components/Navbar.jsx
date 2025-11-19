@@ -21,7 +21,7 @@ export default function Navbar() {
   return (
     <nav
       className={`fixed w-full z-50 transition-all ${
-        scrolled ? "bg-white shadow-lg" : "bg-transparent"
+        scrolled ? "bg-white shadow-lg" : "bg-transparent shadow-lg"
       }`}
     >
       <div className="max-w-7xl mx-auto px-4 flex justify-between items-center h-16">
@@ -36,7 +36,7 @@ export default function Navbar() {
           Kabir Fandirma
         </Link>
 
-        <div className="hidden md:flex gap-8">
+        <div className="hidden md:flex gap-8 ">
           {navLinks.map((link) => (
             <Link
               key={link.to}
@@ -45,7 +45,7 @@ export default function Navbar() {
               duration={500}
               offset={-70}
               className={`cursor-pointer hover:text-yellow-400 transition ${
-                scrolled ? "text-blue-900" : "text-white"
+                scrolled ? "text-blue-900 " : "text-white "
               }`}
             >
               {link.name}
@@ -56,7 +56,7 @@ export default function Navbar() {
         <div className="md:hidden">
           <button
             onClick={() => setIsOpen(!isOpen)}
-            className="text-white focus:outline-none"
+            className="text-yellow-400 focus:outline-none"
           >
             {isOpen ? "✖" : "☰"}
           </button>
